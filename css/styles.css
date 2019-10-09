@@ -1,0 +1,393 @@
+img{
+  height: aoto;
+  width: auto\9;
+  width:100%;
+}
+.menu {
+    position:fixed;
+    left: 0.2em;
+    top: 0.5em;
+    z-index: 9999;
+    text-align: center;
+}
+
+a:link {
+  color:#000000;
+  font-family: Heebo;
+  font-size: 1.1em;
+  text-decoration: none;
+  }		/* 未被访问的链接 */
+a:visited {
+  color:#000000;
+  font-family: Heebo;
+  font-size: 1.1em;
+  text-decoration: none;
+  }	/* 已被访问的链接 */
+a:hover {
+  background-color:white;
+  color:#000000;
+  font-family: Heebo;
+  font-size: 1.1em;
+  text-decoration: none;
+  }	/* 鼠标指针移动到链接上 */
+a:active {
+  color:#000000;
+  font-family: Heebo;
+  font-size: 1.1em;
+  text-decoration: none;
+  }	/* 正在被点击的链接 */
+
+.titre-bloc{
+  position: absolute;
+  margin-top: -10em;
+  background-color: white;
+  width: 63%;
+  left: 7em;
+}
+
+.nom{
+  width: 6.1em;
+  border: 0.07em solid black;
+  padding-left:0.28em;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+}
+.para{
+    border: 0.07em solid black;
+    padding:1em;
+}
+
+.blockillus{
+  margin-bottom: 3em;
+}
+
+
+.parti01 {
+  margin-left: 35em;
+  margin-right: 12%;
+  margin-top: 25em;
+}
+
+.parti02{
+  margin-left: 35em;
+  margin-right: 12%;
+}
+
+.parti03{
+  margin-left: 32em;
+  margin-right: 12%;
+}
+
+.parti04{
+  margin-left: 32em;
+  margin-right: 12%;
+  margin-bottom: 3em;
+}
+
+.parti05{
+  margin-left: 32em;
+  margin-right: 12%;
+}
+.parti07{
+  margin-top: 3em;
+  margin-left: 32em;
+  margin-right: 12%;
+  column-count:2;
+  column-gap:5em;
+}
+
+.parti08{
+  margin-top: 3em;
+  margin-left: 32em;
+  margin-right: 12%;
+}
+.parti09{
+  margin: 3em;
+}
+.parti10{
+  margin-left: 32em;
+  margin-right: 12%;
+}
+.parti11{
+  text-align: center;
+  margin: 7em;
+
+}
+
+.parti12{
+  margin-left: 32em;
+  margin-right: 12%;
+}
+.parti13{
+  text-align: left;
+}
+.parti12-1{
+  column-count:2;
+  column-gap:5em;
+  margin-bottom: 3em;
+  margin-top: 5em;
+
+}
+.parti04-1{
+  column-count:2;
+  column-gap:5em;
+  margin-bottom: 3em;
+  margin-top: 5em;
+}
+.trait{
+  position: absolute;
+  width: 0;
+  height: 13.5em;
+  border-left:0.20em solid #333131;
+  margin-left: 31em;
+  margin-top: 26em;
+}
+
+.ligne{
+  border-top:0.20em solid #333131;
+  width: 10em;
+  margin-bottom: 5em;
+
+
+}
+
+.photo{
+  flex-basis: 100%;
+  margin-bottom: 3em;
+}
+
+
+.blockphoto{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-bottom: 3em;
+}
+
+.block02, .block03, .block04{
+  width: 32%;
+  height: 32%;
+}
+.block05{
+margin-bottom: 2em;
+}
+
+@media screen and (max-width: 720px) /* For mobile phones: */
+ {
+
+  .titre-bloc{
+    position: absolute;
+    text-align: left;
+    top:23em;
+    background-color: white;
+    width: 80%;
+    left: 3em;
+    margin-bottom: 2em;
+  }
+  .nom{
+    width: 6.1em;
+    border: 0.07em solid black;
+    padding-left:0.28em;
+  }
+
+  .trait{
+    border-left:0em solid #333131;
+  }
+  .text{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parti01 {
+    margin-left: 3em;
+
+  }
+
+  .parti02 {
+      margin-left: 3em;
+    }
+
+  .parti03 {
+    margin-left: 3em;
+      }
+
+  .parti04 {
+    margin-left: 3em;
+          }
+.parti04-1 {
+    column-count:1;
+  }
+
+.parti05 {
+    margin-left: 3em;
+}
+.parti07 {
+    column-count:1;
+    margin-left: 3em;
+}
+
+.parti08 {
+    margin-left: 3em;
+}
+
+.parti09 {
+    margin-left: 3em;
+}
+
+.parti10 {
+    margin-left: 3em;
+}
+.parti11 {
+    margin-left: 3em;
+}
+
+.parti12 {
+    margin-left: 3em;
+}
+.parti12-1{
+  column-count:1;
+}
+
+
+}
+
+@media only screen and (min-width: 720px) and
+(max-width:960px)
+{
+
+  .titre-bloc{
+    position: absolute;
+    text-align: left;
+    top:25em;
+    background-color: white;
+    width: 85%;
+    left: 3em;
+    margin-bottom: 5em;
+  }
+  .nom{
+    width: 6.1em;
+    border: 0.07em solid black;
+    padding-left:0.28em;
+  }
+
+  .trait{
+    position: absolute;
+    width: 0;
+    height: 13.5em;
+    border-left:0em solid #333131;
+    margin-left: 31em;
+    margin-top: 26em;
+  }
+  .parti01 {
+    margin-left: 5em;
+    margin-top: 23em;
+  }
+
+  .parti02 {
+      margin-left: 5em;
+    }
+
+  .parti03 {
+    margin-left: 5em;
+      }
+
+  .parti04 {
+    margin-left: 5em;
+          }
+.parti04-1 {
+    column-count:1;
+  }
+
+.parti05 {
+    margin-left: 5em;
+}
+.parti07 {
+    column-count:1;
+    margin-left: 5em;
+}
+
+.parti08 {
+    margin-left: 5em;
+}
+
+.parti09 {
+    margin-left: 5em;
+}
+
+.parti10 {
+    margin-left: 5em;
+}
+.parti11 {
+    margin-left: 5em;
+}
+
+.parti12 {
+    margin-left: 5em;
+}
+.parti12-1{
+  column-count:1;
+}
+
+}
+
+@media only screen and (min-width: 960px) and
+(max-width:1310px)
+{
+
+  .trait{
+    position: absolute;
+    width: 0;
+    height: 13.5em;
+    border-left:0.20em solid #333131;
+    margin-left: 16em;
+    margin-top: 26em;
+  }
+
+  .parti01 {
+    margin-left: 20em;
+  }
+  .parti02 {
+    margin-left: 20em;
+  }
+  .parti03 {
+    margin-left: 20em;
+  }
+  .parti04 {
+    margin-left: 20em;
+  }
+  .parti04-1 {
+    column-count:1;
+  }
+  .parti05 {
+      margin-left: 20em;
+  }
+  .parti07 {
+      column-count:1;
+      margin-left: 20em;
+  }
+  .parti08 {
+      margin-left: 20em;
+  }
+
+  .parti09 {
+      margin-left: 20em;
+  }
+
+  .parti10 {
+      margin-left: 20em;
+  }
+  .parti11 {
+      margin-left: 20em;
+  }
+
+  .parti12 {
+      margin-left: 20em;
+  }
+  .parti12-1{
+    column-count:1;
+  }
+}
